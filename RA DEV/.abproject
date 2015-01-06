@@ -1,0 +1,37 @@
+{
+  "ProjectName": "RA DEV",
+  "ProjectGuid": "027bf40d-6ae0-4cbb-8148-7f8058b8a7ad",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.RADEV",
+  "DisplayName": "RA DEV",
+  "Author": "",
+  "Description": "",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.5.0",
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{17a0be06-ced2-4b20-a8d5-07708308604d}",
+  "WP8ProductID": "{fe07d74d-90d7-4166-b187-88164debc690}",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
