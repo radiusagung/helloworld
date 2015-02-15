@@ -51,8 +51,8 @@
                                 category: "Grand Kartech 24",
                                 value: 24
                             }, {
-                                category: "Marco Persada 284",
-                                value: 284
+                                category: "Marco Persada 184",
+                                value: 184
                             }
                         ]
                     }
