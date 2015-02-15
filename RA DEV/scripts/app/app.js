@@ -1,6 +1,8 @@
+
+
 var app = (function (win) {
     'use strict';
-
+    
     // Global error handling
     var showAlert = function(message, title, callback) {
         navigator.notification.alert(message, callback || function () {
@@ -70,10 +72,11 @@ var app = (function (win) {
         navigator.splashscreen.hide();
         fixViewResize();
 
-        if (analytics.isAnalytics()) {
-            analytics.Start();
-        }
         
+       // if (analytics.isAnalytics()) {
+       //     analytics.Start();
+       // }
+
         // Initialize AppFeedback
         if (app.isKeySet(appSettings.feedback.apiKey)) {
             try {

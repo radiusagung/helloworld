@@ -1,3 +1,9 @@
+table {
+    border-collapse: collapse;
+}
+td, th {
+  border: solid 1px black;
+}
 .cf {
     zoom: 1;
 }
@@ -181,6 +187,14 @@
     background-image: url(images/icon-adsf.png);
 }
 
+#friendsApp .icon-green {
+    width: 15px;
+    height: 15px;
+    background: url(images/icon-green.png) no-repeat 0 0;
+    vertical-align: bottom;
+    text-align: center;
+}
+
 #friendsApp .km-header .nav-button {
     display: inline-block;
     margin: 0;
@@ -202,6 +216,26 @@
     background-image: url(images/icon-add.png);
 }
 
+#friendsApp .km-header .nav-button-activities {
+    background-image: url(images/icon-adsf.png);
+}
+
+#friendsApp .km-header .nav-button-menu {
+    background-image: url(images/icon-liveid.png);
+}
+
+#friendsApp .km-header .nav-button-project {
+    background-image: url(images/icon-liveid.png);
+}
+
+#friendsApp .km-header .nav-button-sales {
+    background-image: url(images/icon-sales.png);
+}
+
+.red-text {
+    font-color: red;
+    font-weight: bold;
+}
 #friendsApp .km-header .nav-button-cancel,
 #friendsApp .km-header .nav-button-post {
     width: auto;
