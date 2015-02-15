@@ -8,10 +8,7 @@
         
         <div data-role="navbar">
             Pengumuman
-            <!--
-            <a class="nav-button nav-button-back hide-text" data-align="left" data-role="backbutton" data-click="app.Activities.logout">Log out</a>
-            -->
-            <a class="nav-button nav-button-sales hide-text" data-align="left" data-role="button" href="views/projectsView.html">Projects</a>
+
             <a class="nav-button nav-button-add hide-text" data-align="right" data-role="button" href="views/addActivityView.html">Add</a>
         </div>
     </div>
@@ -21,6 +18,13 @@
     <p id="no-activities-span" hidden="hidden" class="no-items-msg">
         <b>You have no posts yet.</b><br /><br />Tap on the plus sign and share what's on your mind.
     </p>
+        <div data-role="footer">
+            <div data-role="tabstrip">
+                <a href="views/activitiesView.html" data-icon="globe">Pengumuman</a>
+                <a href="views/projectsView.html" data-icon="globe">Proyek</a>
+                <a href="views/stocksView.html" data-icon="recents">Stok</a>
+            </div>
+        </div>    
 </div>
 
 <!-- Activities ListView Template -->
