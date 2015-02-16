@@ -23,7 +23,7 @@
                 renderAs: "svg",
                 title: {
                     position: "top",
-                    text: "Februari 2015 (Jam Kerja Tercatat)"
+                    text: "Februari 2015 (Jam Kerja Tercatat: 639)"
                 },
                 legend: {
                     position: "bottom"
@@ -39,6 +39,9 @@
                         startAngle: 90,
                         data: [
                             {
+                                category: "Marco Persada 551",
+                                value: 551
+                            }, {
                                 category: "Maju Jaya Makmur 16",
                                 value: 16
                             }, {
@@ -50,9 +53,6 @@
                             }, {
                                 category: "Grand Kartech 24",
                                 value: 24
-                            }, {
-                                category: "Marco Persada 184",
-                                value: 184
                             }
                         ]
                     }
