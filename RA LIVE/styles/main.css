@@ -1,8 +1,10 @@
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 td, th {
   border: solid 1px black;
+  max-width: 50%;
 }
 .cf {
     zoom: 1;
@@ -431,6 +433,13 @@ td, th {
 #friendsApp .add-comment-view .km-content,
 #friendsApp .activities-view .km-listview {
     background-color: #fff;
+}
+
+#friendsApp .activities-view .table {
+    width: 100%;
+}
+#friendsApp .activities-view .td {
+    max-width: 50%;
 }
 
 #friendsApp .activities-view .km-list > li,
