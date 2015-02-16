@@ -290,9 +290,7 @@ td, th {
 }
 
 #friendsApp .app-logo {
-    width: 247px;
-    height: 32px;
-    background: transparent url(images/logo-telerik_devcloud.png) no-repeat 0 0;
+    background: transparent url(images/20150214-wedding.jpg) no-repeat 0 0;
 }
 
 #friendsApp .app-name {
@@ -613,8 +611,8 @@ td, th {
 (min-resolution: 144dpi) {
 
     #friendsApp .app-logo {
-        background-image: url(images/logo-telerik_devcloud@2x.png);
-        background-size: 247px 32px;
+        background-image: url(images/20150214-wedding.jpg);
+        /*background-size: 247px 32px;*/
     }
 
     #login-form .username:before {
